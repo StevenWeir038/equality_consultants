@@ -68,15 +68,21 @@ footer {
 
 .card {
     width: 30%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
     text-align: left;
     margin: 0px 15px 20px 15px;
     padding: 2px;
+    border-radius: 5px;
 }
 
 .card > img {
     width: 100%;
     height: auto;
+    border-radius: 10px;
+}
+
+.card-details {
+    padding: 2px 15px;
 }
 
 .title {
