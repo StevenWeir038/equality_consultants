@@ -37,7 +37,7 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 ### About Us
 
-![hand-draw-wireframe](docs/wireframes/2%20about-us.jpg)
+![hand-draw-wireframe](docs/wireframes/2-about-us.jpg)
 
 ### Emplyers
 
