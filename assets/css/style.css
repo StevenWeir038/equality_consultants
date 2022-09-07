@@ -58,3 +58,51 @@ header {
     background-color: greenyellow;
 }
 
+/* EMPLOYERS PAGE */
+
+/* General */
+
+/* Images */
+
+.employers-img {
+    position: relative;
+    height: 100%;
+    display: inline-block;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.employers-img img {
+    width: 100%;
+}
+
+.employers-img::after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    background: linear-gradient(to bottom right, #29294c 0% , #fff 100%);
+    opacity: 0.8;
+}
+
+.employers-img-reverse::after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    background: linear-gradient(to bottom left, #29294c 0% , #fff 100%);
+    opacity: 0.8;
+}
+
+
+/* -------------------- */
