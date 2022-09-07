@@ -9,3 +9,15 @@ header {
 footer {
     background-color: orange;
 }
+
+#about-container1 {
+    display: flex;
+}
+
+#we-are-content {
+    font-size: 2vw;
+}
+
+.text-center {
+    text-align: center;
+}
