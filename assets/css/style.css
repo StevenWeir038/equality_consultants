@@ -1,11 +1,43 @@
-body {
-    background-color: white;
+/* GENERAL STYLES AND RESETS */
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
 }
 
-header {
-    background-color: greenyellow;
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
 }
 
 footer {
     background-color: orange;
 }
+
+.separator {
+    height: 70vh;
+}
+
+/* variables */
+:root {
+--color-primary: #002B36;
+}
+
+.u-bg-primary {
+    background-color: var(--color-primary);
+}
+/* -------------------- */
+
+
+
+header {
+    background-color: greenyellow;
+}
+
