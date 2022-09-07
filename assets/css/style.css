@@ -35,6 +35,23 @@ footer {
 }
 /* -------------------- */
 
+.nav-bg {
+    background-color: #29294c;
+}
+.nav-link {
+    color:#fff;
+    font-size: 16px;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: #c4d3ff;
+    font-size: 18px;
+}
+
 
 
 header {
