@@ -10,7 +10,8 @@ footer {
     background-color: orange;
 }
 
-#about-section1 {
+/* about us section 1 */
+.about-section {
     width: 90%;
 }
 
@@ -50,6 +51,17 @@ footer {
 #we-did-content > h3 {
     font-weight: bold;
 }
+
+/* about us section 2 */
+
+#about-container2 {
+    display: flex;
+}
+
+.h2-margin {
+    margin: 25px auto;
+}
+
 
 .text-center {
     text-align: center;
