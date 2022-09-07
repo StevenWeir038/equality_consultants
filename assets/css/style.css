@@ -21,6 +21,10 @@ footer {
     background-color: orange;
 }
 
+.footer-number {
+    background-color: #002B36;
+}
+
 .separator {
     height: 70vh;
 }
@@ -106,7 +110,7 @@ header {
 
 /* media queries  */
 
-@media  screen and (max-width:786px) {
+@media screen and (max-width:786px) {
     .employers-story {
         flex-direction: column;
         justify-content: center;
