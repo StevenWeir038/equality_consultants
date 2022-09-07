@@ -10,14 +10,51 @@ footer {
     background-color: orange;
 }
 
+#about-section1 {
+    width: 90%;
+}
+
 #about-container1 {
     display: flex;
+    justify-content: center;
 }
 
 #we-are-content {
-    font-size: 2vw;
+    width: 50%;
+    font-size: 1.7vw;
+    text-align: left;
+    padding: 20px;
+}
+
+#we-are-content > h3 {
+    font-weight: bold;
+}
+
+#we-are-image {
+    width: 50%;
+    padding: 20px;
+}
+
+#we-are-image > img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#we-did-content {
+    font-size: 1.7vw;
+    margin: 5px;
+    text-align: left;
+}
+
+#we-did-content > h3 {
+    font-weight: bold;
 }
 
 .text-center {
     text-align: center;
+}
+
+.about-section-margin {
+    margin: 25px auto;
 }
