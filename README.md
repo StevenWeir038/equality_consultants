@@ -28,3 +28,38 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 ------
 
 # DO NOT DELETE ABOVE HERE YET
+
+## Wireframes
+
+### Landing page
+
+![hand-draw-wireframe](docs/wireframes/1-landing-page.jpg)
+
+### About Us
+
+![hand-draw-wireframe](docs/wireframes/2%20about-us.jpg)
+
+### Emplyers
+
+![hand-draw-wireframe](docs/wireframes/3-employers.jpg)
+
+### Contact Us
+
+![hand-draw-wireframe](docs/wireframes/4-contact-us.jpg)
+
+### Landing page in three different devices
+
+![final-wireframe](docs/wireframes/landing-page-wireframe.png)
+
+### About Us page in three different devices
+
+![final-wireframe](docs/wireframes/about-us-wireframe.png)
+
+### Employers page in three different devices
+
+![final-wireframe](docs/wireframes/employers-wireframe.png)
+
+### Contact Us page in three different devices
+
+![final-wireframe](docs/wireframes/contact-us-wireframe.png)
+
