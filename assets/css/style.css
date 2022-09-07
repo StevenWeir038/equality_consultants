@@ -104,5 +104,27 @@ header {
     opacity: 0.8;
 }
 
+/* media queries  */
+
+@media  screen and (max-width:786px) {
+    .employers-story {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col-6 {
+        width: 70%;
+    }
+
+    .col-5 {
+        width: 70%;
+    }
+
+    .flex-row-reverse {
+        flex-direction: column !important;
+    }
+}
+
 
 /* -------------------- */
