@@ -32,21 +32,21 @@
 
     <div class="container-fluid">
         <div class="row justify-content-center align-self-center text-center">
-            <div class="col">
+            <div class="col-12">
                 <h1>Contact Us</h1>
 
                 <h2>Please</h2>
     
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, quia aperiam. Labore nulla ut earum, nisi temporibus placeat consectetur sapiente quaerat voluptatibus ipsam, veritatis praesentium explicabo aliquam itaque laudantium repellat.</p>
                 
-                <form onsubmit="return false" id="contact-form">
-                    <input type="text" placeholder="Your name" id="contact-form-name">
+                <form onsubmit="return false" id="contact-form" class="col-12 col-lg-8 offset-lg-2 pb-3">
+                    <input type="text" placeholder="Your name" id="contact-form-name" class="w-75" required>
                     <br><br>
-                    <input type="email" placeholder="Your email" id="contact-form-email">
+                    <input type="email" placeholder="Your email" id="contact-form-email" class="w-75" required>
                     <br><br>
-                    <textarea name="message" placeholder="Please leave a message" id="contact-form-message" rows="10"></textarea>
+                    <textarea name="message" placeholder="Please leave a message" id="contact-form-message" rows="10" class="w-75" required></textarea>
                     <br><br>
-                    <button onclick="" id="contact-form-button">Send Message</button>
+                    <button id="contact-form-button">Send Message</button>
                 </form>
 
             </div>
@@ -65,10 +65,11 @@
 <!-- Bespoke JS -->
 <script src="assets/js/script.js"></script>
 
-<!-- Test JS here before moving to beespoke JS file -->
+<!-- Test JS here before moving to bespoke JS file - not needed - link to script.js functional -->
 <script>
     
 </script>
+<!-- end test -->
 
 </body>
 
