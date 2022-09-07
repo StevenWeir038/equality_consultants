@@ -63,3 +63,4 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 ![final-wireframe](docs/wireframes/contact-us-wireframe.png)
 
+### Merge conflict
