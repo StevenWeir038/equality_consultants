@@ -23,15 +23,38 @@
 <body>
 
     <header>
-        Header Content
+        Header Content - Fran will provide this. Use links in meantime to navigate to page.
+        <a href="index.html" class="nav-button" aria-label="Back to Homepage">Home</a>
+        <a href="about.html" class="nav-button" aria-label="About Us">About Us</a>
+        <a href="contact.html" class="nav-button" aria-label="Contact Us">Contact Us</a>
+        <a href="employers.html" class="nav-button" aria-label="Employers">Employers</a>
     </header>
 
-        <section>
-            <h1>Contact Page Test</h1>
-        </section>
+    <div class="container-fluid">
+        <div class="row justify-content-center align-self-center text-center">
+            <div class="col-12">
+                <h1>Contact Us</h1>
+
+                <h2>Please</h2>
+    
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, quia aperiam. Labore nulla ut earum, nisi temporibus placeat consectetur sapiente quaerat voluptatibus ipsam, veritatis praesentium explicabo aliquam itaque laudantium repellat.</p>
+                
+                <form onsubmit="return false" id="contact-form" class="col-12 col-lg-8 offset-lg-2 pb-3">
+                    <input type="text" placeholder="Your name" id="contact-form-name" class="w-75" required>
+                    <br><br>
+                    <input type="email" placeholder="Your email" id="contact-form-email" class="w-75" required>
+                    <br><br>
+                    <textarea name="message" placeholder="Please leave a message" id="contact-form-message" rows="10" class="w-75" required></textarea>
+                    <br><br>
+                    <button id="contact-form-button">Send Message</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
 
     <footer>
-        Footer Content
+        Footer Content - Fran will provide this
     </footer>
 
 <!-- Bootstrap 5 JS -->
@@ -39,8 +62,17 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+<!-- SmtpJS to send email from frontend form -->
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
 <!-- Bespoke JS -->
 <script src="assets/js/script.js"></script>
+
+<!-- Test JS here before moving to bespoke JS file - not needed - link to script.js functional -->
+<script>
+    
+</script>
+<!-- end test -->
 
 </body>
 
