@@ -408,6 +408,10 @@ Contact Us
   padding-top: 3.2rem;
 }
 
+.container-contact-us h2 {
+  color: #545470;
+}
+
 #contact-form {
   padding-top: 1.6rem;
 }
@@ -416,7 +420,7 @@ Contact Us
 textarea {
   font-size: 1.2rem;
   font-weight: bold;
-  color: #000;
+  color: #545470;
   background-color: #fafafa;
 
   padding: 0.8rem;
@@ -435,7 +439,7 @@ textarea {
   font-weight: bold;
   padding: 0.4rem 0.8rem;
   background-color: #fafafa;
-  color: #000;
+  color: #545470;
   font-family: initial;
   border: 2px solid #000;
   border-radius: 9px;
