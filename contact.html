@@ -76,13 +76,19 @@
                     explicabo aliquam itaque laudantium repellat.<p> -->
 
                 <form onsubmit="return false" id="contact-form" class="col-12 col-lg-6 offset-lg-3 pb-3">
-                    <input type="text" placeholder="Your name" id="contact-form-name" class="w-75" required>
-                    <br><br>
-                    <input type="email" placeholder="Your email" id="contact-form-email" class="w-75" required>
-                    <br><br>
-                    <textarea name="message" placeholder="Please leave a message" id="contact-form-message" rows="10"
-                        class="w-75" required></textarea>
-                    <br><br>
+                    <div class="input-icons">
+                        <i class="fa-sharp fa-solid fa-user icon"></i>
+                        <input type="text" placeholder="Your name" id="contact-form-name" class="w-75" required>
+                        <br><br>
+                        <i class="fa-solid fa-envelope icon"></i>
+                        <input type="email" placeholder="Your email" id="contact-form-email" class="w-75" required>
+                        <br><br>
+                        <!-- <i class="fa-sharp fa-solid fa-user icon"></i> -->
+                        <!-- <i class="fa-solid fa-typewriter icon"></i> -->
+                        <textarea name="message" placeholder="Please leave a message" id="contact-form-message"
+                            rows="10" class="w-75" required></textarea>
+                        <br><br>
+                    </div>
                     <button id="contact-form-button">Send Message</button>
                 </form>
 

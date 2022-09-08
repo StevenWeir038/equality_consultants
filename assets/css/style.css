@@ -428,6 +428,10 @@ textarea {
   border-radius: 9px;
 }
 
+#contact-form input {
+  padding-left: 3.2rem;
+}
+
 #contact-form input:hover,
 #contact-form textarea:hover {
   border-color: #7f7f94;
@@ -450,6 +454,39 @@ textarea {
   background-color: #29294c;
   color: #fff;
 }
+
+.input-icons i {
+  position: absolute;
+  font-size: 1.8rem;
+  
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* .input-icons input {
+  padding-left: 3.2rem;
+} */
+
+.icon {
+  padding: 1rem;
+  color: #a9a9b7;
+  min-width: 50px;
+  text-align: center;
+}
+
+.icon:hover {
+  color: #545470;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
 
 /* media queries  */
 
