@@ -397,6 +397,7 @@ Contact Us
 
 .container-contact-us {
   height: 100vh;
+  background-color: #eaeaed;
 }
 
 .container-contact-us .row {
@@ -409,6 +410,41 @@ Contact Us
 
 #contact-form {
   padding-top: 1.6rem;
+}
+
+#contact-form input,
+textarea {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #000;
+  background-color: #fafafa;
+
+  padding: 0.8rem;
+  border: 1px solid #3e3e5e;
+  border-radius: 9px;
+}
+
+#contact-form input:hover,
+#contact-form textarea:hover {
+  border-color: #7f7f94;
+  background-color: #fff;
+}
+
+#contact-form-button {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.4rem 0.8rem;
+  background-color: #fafafa;
+  color: #000;
+  font-family: initial;
+  border: 2px solid #000;
+  border-radius: 9px;
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+#contact-form-button:hover {
+  background-color: #29294c;
+  color: #fff;
 }
 
 /* media queries  */
