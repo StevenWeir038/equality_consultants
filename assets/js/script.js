@@ -1,1 +1,1 @@
-console.log("Test JS link is working")
+/* jshint esversion: 8 */
