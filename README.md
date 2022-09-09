@@ -1,5 +1,9 @@
 # September 2022 Hackathon | E-Quality Consultancy
+![Mockup](docs/readme/responsive.png "Website preview at different resolutions") **REVIEW MOCKUP PLACEHOLDER IMAGE FOR NOW**
+
 An informational website to promote **Gender Equality in the Workplace** from a hypothetical business.
+
+[Visit the live site](https://stevenweir038.github.io/equality_consultants/)
 
 ## A Message to the September 2022 Hackathon Organisers & Hosts
 To begin we would like to thank our event organisers and hosts - [The Code Institute](https://codeinstitute.net/), [Trust in SODA](https://www.trustinsoda.com/) and [Deloitte](https://www2.deloitte.ie/).
