@@ -20,9 +20,6 @@ body {
     color: #fff;
 }
 
-    font-family: 'Lato', sans-serif;
-}
-
 .navbar {
     background-color: #29294c;
   }
@@ -436,10 +433,6 @@ footer {
     padding: 20px;
 }
 
-#we-are-content > h3 {
-    font-weight: bold;
-}
-
 #we-are-image {
     width: 50%;
     padding: 20px;
@@ -457,10 +450,6 @@ footer {
     text-align: left;
 }
 
-#we-did-content > h3 {
-    font-weight: bold;
-}
-
 /* about us section 2 --John*/
 #about-container2 {
     display: flex;
@@ -470,11 +459,11 @@ footer {
 }
 
 .h2-margin {
-    margin: 25px auto;
+    margin: 20px auto;
 }
 
 .card {
-    width: 30%;
+    width: 28%;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
     text-align: left;
     margin: 0px 15px 20px 15px;
@@ -482,10 +471,31 @@ footer {
     border-radius: 5px;
 }
 
-.card > img {
-    width: 100%;
+.card > .background-blue > img {
+    width: 75%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 50%;
+    margin: 0 auto 2px auto;
+}
+
+.about-section h1, .about-section h2,  .about-section h3 {
+  font-size: 150%;
+  font-weight: bold;
+  color: #000;
+  text-decoration: underline;
+}
+
+.about-section > .card-h2 {
+  font-size: 200%;
+}
+
+.about-section p {
+  font-family: 'raleway', sans-serif;
+}
+
+.background-blue {
+  background-color: #29294c;
+  border-radius: 10px; 
 }
 
 .card-details {
@@ -503,6 +513,7 @@ footer {
 .about-section-margin {
     margin: 25px auto;
 }
+
 
 .employers-img::after {
   display: block;
