@@ -95,3 +95,17 @@ Validators **USE ON SATURDAY WHEN TEAM GETS TOGHTHER IN PERSON**
 - [PEP8](http://pep8online.com/) Python linter
 
 **CHECK WITH TEAM IF MORE TO ADD**
+
+
+## Credits
+
+### Content
+
+- **get research off Eoghan** []()
+
+
+### People
+
+Our thanks to:
+- our Facilitator [Anthony O'Brien](https://www.linkedin.com/in/anthony-o-%E2%80%8B-brien-8324a5139/)
+- the Slack community at Code Institute
