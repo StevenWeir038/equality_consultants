@@ -51,10 +51,6 @@ span.navbar-toggler-icon {
   color: #29294c;
 }
 
-/* .navbar-light .navbar-toggler {
-  color: #f8f9fa;
-} */
-
 .navbar-light .navbar-toggler {
   color:#f8f9fa;
   border-color: rgb(253 250 250 / 88%);
@@ -86,7 +82,6 @@ span.navbar-toggler-icon {
     color: transparent;
   }
   
-  /* Navbar end style */
 header {
     background-color:  #29294c;
 }
@@ -97,20 +92,18 @@ h3 {
 }
 
 .icon-section {
-  /* background-color: yellow; */
   border-radius: 100px;
   border-top: 20px;
 
   padding-top: 50px;
 }
 
-/* media q */
+/* media queries  */
 @media (max-width:600px){
   .logo-text{
     font-size: 14px;
   }
 }
-
   /* Footer start */
 .social-icons {
     padding: 0px 5px;
