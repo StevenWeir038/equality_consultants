@@ -33,4 +33,38 @@ As the site was static, it was deployed using *GitHub Pages*.  The steps to depl
 - In the Source section select *Deploy from a branch* option in the drop-down menu
 - In the Branch section select *main* option in the drop-down menu
 - Keep directory set to the */root*.
-- The pager will reload with a link to the live site
+- The page will reload with a link to the live site
+
+
+## Technologies Used
+Project Planning & Management
+- [Balsamiq](https://balsamiq.com/) for wireframes
+- [Adobe Color](https://color.adobe.com/) to research colour schemas.
+- [GitHub](https://github.com/) for
+    - for repository storage
+    - Agile project management using kanban boards/issue tracking.
+    - static site deployment
+
+Team members used different IDE's including:
+- [GitPod](https://gitpod.io/)
+- [VSCode](https://code.visualstudio.com/)
+
+Languages & Frameworks
+- [CSS3](https://www.w3.org/Style/CSS/Overview.en.html)
+- [HTML5](https://developer.mozilla.org/en-US/docs/Learn/HTML)
+- [Javascript](https://www.javascript.com/)
+- [Bootstrap 5](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+
+Other
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+- [Google Fonts](https://fonts.google.com/)
+- [Fontawesome 6](https://fontawesome.com/)
+- [EmailJS](https://www.emailjs.com/) **CHECK DID ANDRUIS KEEP USING EmailJS**
+
+Validators **USE ON SATURDAY WHEN TEAM GETS TOGHTHER IN PERSON**
+- [W3C Markup Validator](https://validator.w3.org/) HTML linter
+- [Jigsaw](https://jigsaw.w3.org/css-validator/) CSS linter
+- [JSHint](https://jshint.com/) JS linter
+- [PEP8](http://pep8online.com/) Python linter
+
+**CHECK WITH TEAM IF MORE TO ADD**
