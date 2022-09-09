@@ -46,6 +46,26 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+span.navbar-toggler-icon {
+  background: #f8f9fa;
+  color: #29294c;
+}
+
+/* .navbar-light .navbar-toggler {
+  color: #f8f9fa;
+} */
+
+.navbar-light .navbar-toggler {
+  color:#f8f9fa;
+  border-color: rgb(253 250 250 / 88%);
+  padding: 2px;
+}
+
+.logo {
+  width: 50px;
+  margin-top: -15px;
+  border-radius: 10px;
+}
 .logo-text {
     font-weight: 900;
     font-size: xx-large;
