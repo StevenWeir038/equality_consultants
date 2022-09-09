@@ -11,7 +11,7 @@ To begin we would like to thank our event organisers and hosts - [The Code Insti
 There is a great deal of time and knowhow that goes into a event like this.  We look forward to working with others, do some networking and learn more more from industry leaders.
 
 ## Our Team
-Our team consisted of 5 members who have never met.  They are:
+Our team called  consisted of 5 members who have never met.  They are:
 
 - Andruis S (Enthusiast)
 - Fran (Enthusiast)
@@ -19,5 +19,9 @@ Our team consisted of 5 members who have never met.  They are:
 - John de Lara (Newbie)
 - Eoghan Behan (Newbie)
 
-Together we developed a static website based upon our core compentancies.
-Welcome to E-Quality Consultancy. A site developed by **REVIEW TEAM NAME**.  
+We are inexperienced so choose to develop static website.
+By limiting technologies used to HTML5, CSS3 and Javascript, project development was accessible to all members as we shared in these compentancies.
+Further considerations were:
+- the option for more experienced team members to use Bootstrap5 framework without compromising other using vanilla HTML/CSS
+- limited development time before presentation
+- simplier deployment through GitHub Pages.
