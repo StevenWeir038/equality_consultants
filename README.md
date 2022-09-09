@@ -26,6 +26,33 @@ Further considerations were:
 - limited development time before presentation
 - simplier deployment through GitHub Pages.
 
+
+## Wireframes
+### Landing page
+![hand-draw-wireframe](docs/wireframes/1-landing-page.jpg)
+
+### About Us
+![hand-draw-wireframe](docs/wireframes/2-about-us.jpg)
+
+### Employers
+![hand-draw-wireframe](docs/wireframes/3-employers.jpg)
+
+### Contact Us
+![hand-draw-wireframe](docs/wireframes/4-contact-us.jpg)
+
+### Landing page (low to high res)
+![final-wireframe](docs/wireframes/landing-page-wireframe.png)
+
+### About Us page (low to high res)
+![final-wireframe](docs/wireframes/about-us-wireframe.png)
+
+### Employers page (low to high res)
+![final-wireframe](docs/wireframes/employers-wireframe.png)
+
+### Contact Us page (low to high res)
+![final-wireframe](docs/wireframes/contact-us-wireframe.png)
+
+
 ## Deployment
 As the site was static, it was deployed using *GitHub Pages*.  The steps to deploy are as follows:
 
