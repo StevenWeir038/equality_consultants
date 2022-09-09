@@ -27,6 +27,22 @@ Further considerations were:
 - simplier deployment through GitHub Pages.
 
 
+# Planning Phase
+## Strategy Plane
+### Site Aims
+
+### Oppurtunities
+
+
+## Scope Plane
+### Must Have
+### Should Have
+### Could Have
+
+
+## Skeleton Plane
+## User Stories
+
 ## Wireframes
 ### Landing page
 ![hand-draw-wireframe](docs/wireframes/1-landing-page.jpg)
@@ -51,6 +67,27 @@ Further considerations were:
 
 ### Contact Us page (low to high res)
 ![final-wireframe](docs/wireframes/contact-us-wireframe.png)
+
+
+
+
+## Surface Plane
+### Color Schema
+### Typography
+
+
+## Agile / Project Management
+
+## Features
+
+
+## Future Development Oppurtunities
+
+## Testing
+### Known Issues
+#### Resolved
+
+#### Unresolved
 
 
 ## Deployment
@@ -86,7 +123,7 @@ Team members used different IDE's including:
 - [GitPod](https://gitpod.io/)
 - [VSCode](https://code.visualstudio.com/)
 
-Languages & Frameworks
+Languages & Frameworks/Resources
 - [CSS3](https://www.w3.org/Style/CSS/Overview.en.html)
 - [HTML5](https://developer.mozilla.org/en-US/docs/Learn/HTML)
 - [Javascript](https://www.javascript.com/)
@@ -112,7 +149,6 @@ Validators **USE ON SATURDAY WHEN TEAM GETS TOGHTHER IN PERSON**
 ### Content
 
 - **get research off Eoghan** []()
-
 
 ### People
 
