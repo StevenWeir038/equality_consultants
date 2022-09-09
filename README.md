@@ -62,6 +62,16 @@ As the site was static, it was deployed using *GitHub Pages*.  The steps to depl
 - Keep directory set to the */root*.
 - The page will reload with a link to the live site
 
+The live link can be found here - https://stevenweir038.github.io/equality_consultants/
+
+## Local Deployment
+In order to make a local copy of this repository, you can clone the project by typing the follow into your IDE terminal:
+- `git clone https://github.com/StevenWeir038/equality_consultants.git`
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://stevenweir038.github.io/equality_consultants/)
+
 
 ## Technologies Used
 Project Planning & Management
