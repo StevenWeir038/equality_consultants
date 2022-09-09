@@ -11,7 +11,7 @@ To begin we would like to thank our event organisers and hosts - [The Code Insti
 There is a great deal of time and knowhow that goes into a event like this.  We look forward to working with others, do some networking and learn more more from industry leaders.
 
 ## Our Team
-Our team called  consisted of 5 members who have never met.  They are:
+Our team called consisted of 5 members who have never met.  They are:
 
 - Andruis S (Enthusiast)
 - Fran (Enthusiast)
@@ -25,3 +25,12 @@ Further considerations were:
 - the option for more experienced team members to use Bootstrap5 framework without compromising other using vanilla HTML/CSS
 - limited development time before presentation
 - simplier deployment through GitHub Pages.
+
+## Deployment
+As the site was static, it was deployed using *GitHub Pages*.  The steps to deploy are as follows:
+
+- In the GitHub repository, navigate to the *Settings* tab
+- In the Source section select *Deploy from a branch* option in the drop-down menu
+- In the Branch section select *main* option in the drop-down menu
+- Keep directory set to the */root*.
+- The pager will reload with a link to the live site
