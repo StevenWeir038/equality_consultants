@@ -15,6 +15,6 @@ function SendMail() {
       document.getElementById("userName").value = "";
       document.getElementById("email_id").value = "";
       document.getElementById("message").value = "";
-      // window.location = "thankyou.html";
+      window.location = "thankyou.html";
     });
 }
