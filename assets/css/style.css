@@ -91,6 +91,17 @@ a.nav-link {
   font-family: 'Raleway', sans-serif;
 }
 
+span.navbar-toggler-icon {
+  background: #f8f9fa;
+  color: #29294c;
+}
+
+.navbar-light .navbar-toggler {
+  color: #f8f9fa;
+  border-color: rgb(253, 250, 250 / 88%);
+  padding: 2px;
+}
+
 .logo {
   width: 50px;
   margin-top: -15px;
