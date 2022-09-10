@@ -31,7 +31,7 @@ Further considerations were:
 ## Strategy Plane
 ### Site Aims
 
-### Oppurtunities
+### Opportunities
 
 
 ## Scope Plane
@@ -47,7 +47,6 @@ Further considerations were:
 2. As a **site user**, I want to **visit the about page** so that **view the company employees and their roles**
 3. As a **site user**, I want to **do visit the employers page** so that **navigate to external studies by the Irish government**
 4. As a **site user**, I want to **use a contact form** so that **I can conveniently send the company an email**
-5. As a **site user**, I want to **do something** so that **reason/benefit**
 
 ## Wireframes
 ### Landing page
@@ -79,8 +78,9 @@ Further considerations were:
 
 ## Surface Plane
 ### Color Schema
+![final-wireframe](docs/readme/color-scheme.png)
 ### Typography
-
+Lato & Raleway were selected. Both look professional and provide a high degree of accessibility.
 
 ## Agile / Project Management
 
@@ -119,7 +119,7 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 ## Technologies Used
 Project Planning & Management
 - [Balsamiq](https://balsamiq.com/) for wireframes
-- [Adobe Color](https://color.adobe.com/) to research colour schemas.
+- [Coolors](https://coolors.co/) to research colour schemas.
 - [GitHub](https://github.com/) for
     - for repository storage
     - Agile project management using kanban boards/issue tracking.
