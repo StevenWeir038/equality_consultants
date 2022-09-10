@@ -26,20 +26,6 @@ Further considerations were:
 - limited development time before presentation
 - simplier deployment through GitHub Pages.
 
-
-# Planning Phase
-## Strategy Plane
-### Site Aims
-
-### Opportunities
-
-
-## Scope Plane
-### Must Have
-### Should Have
-### Could Have
-
-
 ## Skeleton Plane
 ## User Stories
 1. As a **site user**, I want to **visit the landing page** so that **I can understand the purpose of the site**
@@ -74,8 +60,6 @@ Further considerations were:
 ![final-wireframe](docs/wireframes/contact-us-wireframe.png)
 
 
-
-
 ## Surface Plane
 ### Color Schema
 ![final-wireframe](docs/readme/color-scheme.png)
@@ -83,15 +67,51 @@ Further considerations were:
 Lato & Raleway were selected. Both look professional and provide a high degree of accessibility.
 
 ## Agile / Project Management
+*GitHub Projects* was used to assist project management using a basic Kanban. Draft items were created then converted into issues and assigned to individual team members.  The the SCRUM Master then dragged the items from ToDo to In Progress then Complete after communicating with the team.
+
+As the event took, place over 5 days a call took place at the beginning and end of each day to agreed on task completion/issue closure.
+
+![kanban-example](docs/readme/kanban-example.png)
+![project-issue-example](docs/readme/project-issue-example.png)
 
 ## Features
+- Navigation Bar
+
+![navbar](docs/readme/navbar.png)
+
+- Landing page - intro video
+
+![landing-page-video](docs/readme/landing-page-video.png)
+
+- Landing page - What we do
+
+![landing-page-video](docs/readme/landing-what-we-do.png)
+
+- About Us page - Meet the team
+
+![meet-the-team](docs/readme/meet-the-team.png)
+
+- Employers page - research
+
+![research](docs/readme/research.png)
+
+- Contact page form and Email
+
+![contact-form](docs/readme/contact-form.png)
+
+- Confirm contact message sent page
+
+![user-feedback-confirmation](docs/readme/user-feedback-confirmation.png)
 
 
 ## Future Development Oppurtunities
+Currently only a page aimed at Employers.  Why not Develop a new area aimed at Employees in an FAQ format.
+
 
 ## Testing
 ### Known Issues
 #### Resolved
+
 
 #### Unresolved
 
@@ -107,6 +127,8 @@ As the site was static, it was deployed using *GitHub Pages*.  The steps to depl
 
 The live link can be found here - https://stevenweir038.github.io/equality_consultants/
 
+![project-issue-example](docs/readme/deployment.png)
+
 ## Local Deployment
 In order to make a local copy of this repository, you can clone the project by typing the follow into your IDE terminal:
 - `git clone https://github.com/StevenWeir038/equality_consultants.git`
@@ -114,7 +136,6 @@ In order to make a local copy of this repository, you can clone the project by t
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://stevenweir038.github.io/equality_consultants/)
-
 
 ## Technologies Used
 Project Planning & Management
@@ -139,22 +160,11 @@ Other
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
 - [Google Fonts](https://fonts.google.com/)
 - [Fontawesome 6](https://fontawesome.com/)
-- [EmailJS](https://www.emailjs.com/) **CHECK DID ANDRUIS KEEP USING EmailJS**
+- [EmailJS](https://www.emailjs.com/)
 
-Validators **USE ON SATURDAY WHEN TEAM GETS TOGHTHER IN PERSON**
-- [W3C Markup Validator](https://validator.w3.org/) HTML linter
-- [Jigsaw](https://jigsaw.w3.org/css-validator/) CSS linter
-- [JSHint](https://jshint.com/) JS linter
-- [PEP8](http://pep8online.com/) Python linter
-
-**CHECK WITH TEAM IF MORE TO ADD**
-
-
-## Credits
-
+## Credit
 ### Content
-
-- **get research off Eoghan** []()
+- Introduction [Video](https://www.youtube.com/watch?v=zAnOC7cfrUw).  Permission courtesy of Alexa Bradbury <alexa.bradbury@guidantglobal.com>
 
 ### People
 
