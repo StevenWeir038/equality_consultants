@@ -711,6 +711,12 @@ textarea {
   text-align: center;
 }
 
+.stem-table {
+  color: #fff;
+  background-color: #29294c;
+  font-weight: bold;
+}
+
 
 
 /* media queries  */
