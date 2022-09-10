@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 
 body {
   margin: 0;
@@ -230,7 +230,7 @@ banner
 }
 
 .social-section {
-  float: right;
+  /* float: right; */
 }
 
 footer {
@@ -374,9 +374,6 @@ banner
   padding: 0px 5px;
 }
 
-.social-section {
-  float: right;
-}
 
 footer {
   background-color: #29294c;
