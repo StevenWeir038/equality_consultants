@@ -51,6 +51,15 @@ body {
   text-decoration: none;
 }
 
+.nav-item a:visited {
+  border: 1px solid #f8f9f8;
+  border-radius: 9px;
+}
+
+.nav-item a:focus {
+  border: 1px solid #f8f9f8;
+  border-radius: 9px;
+}
 
 .navbar {
   background-color: #29294c;
