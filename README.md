@@ -89,13 +89,16 @@ As the event took, place over 5 days a call took place at the beginning and end 
 ![project-issue-example](docs/readme/project-issue-example.png)
 
 ## Features
-
+On form submsiioon a Thankyou page is displayed to the user to confirm their message has been sent.
 
 ## Future Development Oppurtunities
+Currently only a page aimed at Employers.  Why not Develop a new area aimed at Employees in an FAQ format.
+
 
 ## Testing
 ### Known Issues
 #### Resolved
+
 
 #### Unresolved
 
