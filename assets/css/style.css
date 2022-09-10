@@ -747,7 +747,7 @@ textarea {
 }
 
 .container-thankyou {
-  padding-top: 12.8rem;
+  padding-top: 9.6rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -764,13 +764,14 @@ textarea {
 .container-thankyou h2 {
   font-size: 2.4rem;
   font-weight: 400;
-  padding: 6.4rem;
+  padding: 4.8rem;
 }
 
 .btn-back {
   font-size: 1.2rem;
   font-weight: bold;
   padding: 0.4rem 0.8rem;
+  margin-bottom: 6.4rem;
   background-color: #fafafa;
   color: #545470;
   font-family: initial;
