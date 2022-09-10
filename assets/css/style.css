@@ -235,13 +235,6 @@ footer {
 /* Footer end */
 
 
-
-
-
-
-
-
-
 /* GENERAL STYLES AND RESETS - Eoghan */
 
 .separator {
@@ -477,7 +470,7 @@ footer {
 }
 
 .about-section h1, .about-section h2,  .about-section h3 {
-  font-size: 150%;
+  font-size: 120%;
   font-weight: bold;
   color: #000;
   text-decoration: underline;
@@ -511,7 +504,6 @@ footer {
 .about-section-margin {
     margin: 25px auto;
 }
-
 
 .employers-img::after {
   display: block;
