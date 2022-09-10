@@ -420,7 +420,7 @@ footer {
 
 #we-are-content {
   width: 50%;
-  font-size: 1.7vw;
+  font-size: 1.5vw;
   text-align: left;
   padding: 20px;
 }
@@ -439,17 +439,6 @@ footer {
   width: 90%;
   height: auto;
   border-radius: 10px;
-}
-
-#we-did-content {
-  font-size: 1.7vw;
-  margin: 5px;
-  text-align: left;
-}
-
-
-#we-did-content>h3 {
-  font-weight: bold;
 }
 
 /* about us section 2 --John*/
@@ -496,8 +485,8 @@ footer {
   margin: 0 auto 2px auto;
 }
 
-.about-section h1,
-.about-section h2,
+.about-section h1, 
+.about-section h2,  
 .about-section h3 {
   font-size: 120%;
   font-weight: bold;
@@ -505,12 +494,12 @@ footer {
   text-decoration: underline;
 }
 
-.about-section>.card-h2 {
+.about-section > h1 {
   font-size: 200%;
-}
+} 
 
-.about-section p {
-  font-family: 'raleway', sans-serif;
+.about-section > .card-h2 {
+  font-size: 180%;
 }
 
 .background-blue {
@@ -528,6 +517,10 @@ footer {
 
 .text-center {
   text-align: center;
+}
+
+.top-margin {
+  margin-top: 80px;
 }
 
 .about-section-margin {
@@ -561,7 +554,6 @@ footer {
   background: linear-gradient(to bottom left, #29294c 0%, #fff 100%);
   opacity: 0.8;
 }
-
 
 .intro-container-bg {
   width: 100%;
