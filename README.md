@@ -78,7 +78,7 @@ Further considerations were:
 
 ## Surface Plane
 ### Color Schema
-
+![final-wireframe](docs/readme/color-scheme.png)
 ### Typography
 Lato & Raleway were selected. Both look professional and provide a high degree of accessibility.
 
@@ -119,7 +119,7 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 ## Technologies Used
 Project Planning & Management
 - [Balsamiq](https://balsamiq.com/) for wireframes
-- [Adobe Color](https://color.adobe.com/) to research colour schemas.
+- [Coolors](https://coolors.co/) to research colour schemas.
 - [GitHub](https://github.com/) for
     - for repository storage
     - Agile project management using kanban boards/issue tracking.
