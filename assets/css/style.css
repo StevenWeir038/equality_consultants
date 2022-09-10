@@ -544,6 +544,22 @@ footer {
   margin: 25px auto;
 }
 
+.card-button {
+  margin-bottom: 0;
+  width: 100%;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.card-button:hover {
+  opacity: 0.6;
+}
+
+/* About us page end */
+
 .employers-img::after {
   display: block;
   content: '';
