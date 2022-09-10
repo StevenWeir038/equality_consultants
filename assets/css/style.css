@@ -485,8 +485,8 @@ footer {
   margin: 0 auto 2px auto;
 }
 
-.about-section h1, 
-.about-section h2,  
+.about-section h1,
+.about-section h2,
 .about-section h3 {
   font-size: 120%;
   font-weight: bold;
@@ -494,11 +494,11 @@ footer {
   text-decoration: underline;
 }
 
-.about-section > h1 {
+.about-section>h1 {
   font-size: 200%;
-} 
+}
 
-.about-section > .card-h2 {
+.about-section>.card-h2 {
   font-size: 180%;
 }
 
@@ -649,24 +649,29 @@ Contact Us
 
 .container-contact-us,
 .container-thankyou {
-  height: 100vh;
+  /* height: 100vh; */
   background-color: #eaeaed;
 }
 
 .container-contact-us .row {
-  padding-top: 9.6rem;
+  padding-top: 6.4rem;
 }
 
 .container-contact-us .row .col-12 {
-  padding-top: 3.2rem;
+  padding-top: 3.2rem 4.8rem;
+}
+
+.container-contact-us h1 {
+  font-size: 3.2rem;
 }
 
 .container-contact-us h2 {
+  font-size: 2rem;
   color: #545470;
 }
 
 #contact-form {
-  padding-top: 1.6rem;
+  padding: 1.6rem;
 }
 
 #contact-form input,
@@ -695,6 +700,7 @@ textarea {
   font-size: 1.2rem;
   font-weight: bold;
   padding: 0.4rem 0.8rem;
+  margin-bottom: 3.2rem;
   background-color: #fafafa;
   color: #545470;
   font-family: initial;
@@ -748,7 +754,7 @@ textarea {
 
 
 .container-thankyou {
-  padding-top: 12.8rem;
+  padding-top: 9.6rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -765,13 +771,14 @@ textarea {
 .container-thankyou h2 {
   font-size: 2.4rem;
   font-weight: 400;
-  padding: 6.4rem;
+  padding: 4.8rem;
 }
 
 .btn-back {
   font-size: 1.2rem;
   font-weight: bold;
   padding: 0.4rem 0.8rem;
+  margin-bottom: 6.4rem;
   background-color: #fafafa;
   color: #545470;
   font-family: initial;
