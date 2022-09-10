@@ -665,7 +665,7 @@ Contact Us
 
 .container-contact-us,
 .container-thankyou {
-  /* height: 100vh; */
+  height: 100vh;
   background-color: #eaeaed;
 }
 
@@ -771,6 +771,7 @@ textarea {
 
 .container-thankyou {
   padding-top: 9.6rem;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -851,7 +852,18 @@ textarea {
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+
+
+
+
+  /* -------------------------------- Footer */
+  .f-col-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {}
