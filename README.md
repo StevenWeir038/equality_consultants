@@ -1,65 +1,173 @@
-## Gitpod Reminders
+# September 2022 Hackathon | E-Quality Consultancy
+![Mockup](docs/readme/responsive.png "Website preview at different resolutions") **REVIEW MOCKUP PLACEHOLDER IMAGE FOR NOW**
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+An informational website to promote **Gender Equality in the Workplace** from a hypothetical business.
 
-`python3 -m http.server`
+[Visit the live site](https://stevenweir038.github.io/equality_consultants/)
 
-A blue button should appear to click: _Make Public_,
+## A Message to the September 2022 Hackathon Organisers & Hosts
+To begin we would like to thank our event organisers and hosts - [The Code Institute](https://codeinstitute.net/), [Trust in SODA](https://www.trustinsoda.com/) and [Deloitte](https://www2.deloitte.ie/).
 
-Another blue button should appear to click: _Open Browser_.
+There is a great deal of time and knowhow that goes into a event like this.  We look forward to working with others, do some networking and learn more more from industry leaders.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Our Team
+Our team called consisted of 5 members who have never met.  They are:
 
-A blue button should appear to click: _Make Public_,
+- Andruis S (Enthusiast)
+- Fran (Enthusiast)
+- StevenW (Newbie)
+- John de Lara (Newbie)
+- Eoghan Behan (Newbie)
 
-Another blue button should appear to click: _Open Browser_.
+We are inexperienced so choose to develop static website.
+By limiting technologies used to HTML5, CSS3 and Javascript, project development was accessible to all members as we shared in these compentancies.
+Further considerations were:
+- the option for more experienced team members to use Bootstrap5 framework without compromising other using vanilla HTML/CSS
+- limited development time before presentation
+- simplier deployment through GitHub Pages.
 
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-# DO NOT DELETE ABOVE HERE YET
+## Skeleton Plane
+## User Stories
+1. As a **site user**, I want to **visit the landing page** so that **I can understand the purpose of the site**
+2. As a **site user**, I want to **visit the about page** so that **I can understand the companys mission**
+2. As a **site user**, I want to **visit the about page** so that **view the company employees and their roles**
+3. As a **site user**, I want to **do visit the employers page** so that **navigate to external studies by the Irish government**
+4. As a **site user**, I want to **use a contact form** so that **I can conveniently send the company an email**
 
 ## Wireframes
-
 ### Landing page
-
 ![hand-draw-wireframe](docs/wireframes/1-landing-page.jpg)
 
 ### About Us
-
 ![hand-draw-wireframe](docs/wireframes/2-about-us.jpg)
 
-### Emplyers
-
+### Employers
 ![hand-draw-wireframe](docs/wireframes/3-employers.jpg)
 
 ### Contact Us
-
 ![hand-draw-wireframe](docs/wireframes/4-contact-us.jpg)
 
-### Landing page in three different devices
-
+### Landing page (low to high res)
 ![final-wireframe](docs/wireframes/landing-page-wireframe.png)
 
-### About Us page in three different devices
-
+### About Us page (low to high res)
 ![final-wireframe](docs/wireframes/about-us-wireframe.png)
 
-### Employers page in three different devices
-
+### Employers page (low to high res)
 ![final-wireframe](docs/wireframes/employers-wireframe.png)
 
-### Contact Us page in three different devices
-
+### Contact Us page (low to high res)
 ![final-wireframe](docs/wireframes/contact-us-wireframe.png)
 
+
+## Surface Plane
+### Color Schema
+![final-wireframe](docs/readme/color-scheme.png)
+### Typography
+Lato & Raleway were selected. Both look professional and provide a high degree of accessibility.
+
+## Agile / Project Management
+*GitHub Projects* was used to assist project management using a basic Kanban. Draft items were created then converted into issues and assigned to individual team members.  The the SCRUM Master then dragged the items from ToDo to In Progress then Complete after communicating with the team.
+
+As the event took, place over 5 days a call took place at the beginning and end of each day to agreed on task completion/issue closure.
+
+![kanban-example](docs/readme/kanban-example.png)
+![project-issue-example](docs/readme/project-issue-example.png)
+
+## Features
+- Navigation Bar
+
+![navbar](docs/readme/navbar.png)
+
+- Landing page - intro video
+
+![landing-page-video](docs/readme/landing-page-video.png)
+
+- Landing page - What we do
+
+![landing-page-video](docs/readme/landing-what-we-do.png)
+
+- About Us page - Meet the team
+
+![meet-the-team](docs/readme/meet-the-team.png)
+
+- Employers page - research
+
+![research](docs/readme/research.png)
+
+- Contact page form and Email
+
+![contact-form](docs/readme/contact-form.png)
+
+- Confirm contact message sent page
+
+![user-feedback-confirmation](docs/readme/user-feedback-confirmation.png)
+
+
+## Future Development Oppurtunities
+Currently only a page aimed at Employers.  Why not Develop a new area aimed at Employees in an FAQ format.
+
+
+## Testing
+### Known Issues
+#### Resolved
+
+
+#### Unresolved
+
+
+## Deployment
+As the site was static, it was deployed using *GitHub Pages*.  The steps to deploy are as follows:
+
+- In the GitHub repository, navigate to the *Settings* tab
+- In the Source section select *Deploy from a branch* option in the drop-down menu
+- In the Branch section select *main* option in the drop-down menu
+- Keep directory set to the */root*.
+- The page will reload with a link to the live site
+
+The live link can be found here - https://stevenweir038.github.io/equality_consultants/
+
+![project-issue-example](docs/readme/deployment.png)
+
+## Local Deployment
+In order to make a local copy of this repository, you can clone the project by typing the follow into your IDE terminal:
+- `git clone https://github.com/StevenWeir038/equality_consultants.git`
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://stevenweir038.github.io/equality_consultants/)
+
+## Technologies Used
+Project Planning & Management
+- [Balsamiq](https://balsamiq.com/) for wireframes
+- [Coolors](https://coolors.co/) to research colour schemas.
+- [GitHub](https://github.com/) for
+    - for repository storage
+    - Agile project management using kanban boards/issue tracking.
+    - static site deployment
+
+Team members used different IDE's including:
+- [GitPod](https://gitpod.io/)
+- [VSCode](https://code.visualstudio.com/)
+
+Languages & Frameworks/Resources
+- [CSS3](https://www.w3.org/Style/CSS/Overview.en.html)
+- [HTML5](https://developer.mozilla.org/en-US/docs/Learn/HTML)
+- [Javascript](https://www.javascript.com/)
+- [Bootstrap 5](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+
+Other
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+- [Google Fonts](https://fonts.google.com/)
+- [Fontawesome 6](https://fontawesome.com/)
+- [EmailJS](https://www.emailjs.com/)
+
+## Credit
+### Content
+- Introduction [Video](https://www.youtube.com/watch?v=zAnOC7cfrUw).  Permission courtesy of Alexa Bradbury <alexa.bradbury@guidantglobal.com>
+
+### People
+
+Our thanks to:
+- our Facilitator [Anthony O'Brien](https://www.linkedin.com/in/anthony-o-%E2%80%8B-brien-8324a5139/)
+- the Slack community at Code Institute

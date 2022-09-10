@@ -20,17 +20,17 @@
 
     <title>EQC | Contact Us</title>
 
-<!-- EmailJS -->
-<!-- load emailJS SDK -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- EmailJS -->
+    <!-- load emailJS SDK -->
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
         (function() {
             // https://dashboard.emailjs.com/admin/account
             // initialize SDK with public key
             emailjs.init('user_AD5XLaJn0uSUcE15RbDeQ');
         })();
-    </script>
-    <script type="text/javascript">
+    </script> -->
+    <!-- <script type="text/javascript">
         window.onload = function() {
             document.getElementById('contact-form').addEventListener('submit', function(event) {
                 event.preventDefault();
@@ -46,6 +46,14 @@
                     });
             });
         }
+    </script> -->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init("user_Hft1f0wwhp6PvNa61wBb2");
+        })();
     </script>
 </head>
 
@@ -60,9 +68,10 @@
 
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="container">
-                <a href="index.html#">
+                <a href="index.html">
+                    <img src="assets/logo-equality.png" class="logo" alt="equality-logo" />
                     <span class="logo-text">E-Quality Consultancy</span>
-                </a>
+                  </a>
                 <button class="navbar-toggler position" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -94,30 +103,21 @@
         <div class="row justify-content-center align-self-center text-center">
             <div class="col-12">
                 <h1 class="text-center display-2 heading">Contact Us</h1>
-
-
-                <!-- <h2 class="mb-4 display-6 align-self-start">Please fill this form in a decent manner</h2> -->
                 <h2 class="mb-4 mt-4 display-6 align-self-start">Please contact us for specific reasons</h2>
-
-                <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, quia aperiam. Labore nulla ut earum,
-                    nisi temporibus placeat consectetur sapiente quaerat voluptatibus ipsam, veritatis praesentium
-                    explicabo aliquam itaque laudantium repellat.<p> -->
 
                 <form onsubmit="return false" id="contact-form" class="col-12 col-lg-6 offset-lg-3 pb-3">
                     <div class="input-icons">
                         <i class="fa-sharp fa-solid fa-user icon"></i>
-                        <input type="text" placeholder="Your name" id="contact-form-name" class="w-75" required>
+                        <input type="text" placeholder="Your name" id="userName" class="w-75" required>
                         <br><br>
                         <i class="fa-solid fa-envelope icon"></i>
-                        <input type="email" placeholder="Your email" id="contact-form-email" class="w-75" required>
+                        <input type="email" placeholder="Your email" id="email_id" class="w-75" required>
                         <br><br>
-                        <!-- <i class="fa-sharp fa-solid fa-user icon"></i> -->
-                        <!-- <i class="fa-solid fa-typewriter icon"></i> -->
-                        <textarea name="message" placeholder="Please leave a message" id="contact-form-message"
-                            rows="10" class="w-75" required></textarea>
+                        <textarea name="message" placeholder="Please leave a message" id="message" rows="10"
+                            class="w-75" required></textarea>
                         <br><br>
                     </div>
-                    <button id="contact-form-button">Send Message</button>
+                    <button id="contact-form-button" onclick="SendMail()">Send Message</button>
                 </form>
 
 
@@ -127,38 +127,33 @@
 
     <!-- <footer>
         Footer Content - Fran will provide this
-    </footer> -->
     <!--Footer start-->
     <footer class="p-2 text-dark">
-        <div class="container-fluid">
-            <div class="row align-items-center  g-4">
-
-                <div class="col-md-4">
-                    <a href="index.html#">
-                        <span class="logo-text">E-Quality Consultancy</span>
-                    </a>
-                </div>
-                <div class="col-md-6 copyright-text">
-                    Copyright &copy; For educational purposes only | All Rights Reserved
-                </div>
-                <div class="col-md-2">
-                    <div class="social-section">
-                        <a href="https://www.instagram.com/" target="_blank"><span class="social-icons h2"><i
-                                    class="fab fa-instagram"></i></span></a>
-                        <a href="https://www.facebook.com/" target="_blank"><span class="social-icons h2"><i
-                                    class="fab fa-facebook"></i></span> </a>
-                        <a href="https://twitter.com/" target="_blank"><span class="social-icons h2"><i
-                                    class="fab fa-twitter"></i></span></a>
-                        <a href="https://www.youtube.com/" target="_blank"><span class="social-icons h2"><i
-                                    class="fab fa-youtube"></i></span></a>
-
-                    </div>
-                </div>
-
+        <div class="container-fluid"> 
+          <div class="row align-items-center text-center  g-4">
+           
+            <div class="col-md-3">
+              <a href="index.html">
+                <span class="logo-text">E-Quality Consultancy</span>
+              </a>git
             </div>
-        </div>
-
-    </footer>
+            <div class="col-md-6 copyright-text">
+              Copyright &copy; E-Quality Consultancy | All Rights Reserved  
+            </div>
+            <div class="col-md-3 ">
+              <div class="social-section">
+                <a href="https://www.instagram.com/" target="_blank"><span class="social-icons h2"><i class="fab fa-instagram"></i></span></a>
+                <a href="https://www.facebook.com/" target="_blank"><span class="social-icons h2"><i class="fab fa-facebook"></i></span> </a>
+                <a href="https://twitter.com/" target="_blank"><span class="social-icons h2"><i class="fab fa-twitter"></i></span></a>
+                <a href="https://www.youtube.com/" target="_blank"><span class="social-icons h2"><i class="fab fa-youtube"></i></span></a>
+                
+              </div>  
+            </div>
+            
+          </div>
+        </div>  
+        
+      </footer>
     <!--Footer end-->
 
     <!-- Bootstrap 5 JS -->
@@ -168,8 +163,8 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
 
-<!-- Bespoke JS -->
-<script src="assets/js/script.js"></script>
+    <!-- Bespoke JS -->
+    <script src="assets/js/script.js"></script>
 
 </body>
 
