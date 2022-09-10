@@ -74,8 +74,6 @@ Further considerations were:
 ![final-wireframe](docs/wireframes/contact-us-wireframe.png)
 
 
-
-
 ## Surface Plane
 ### Color Schema
 ![final-wireframe](docs/readme/color-scheme.png)
@@ -83,6 +81,9 @@ Further considerations were:
 Lato & Raleway were selected. Both look professional and provide a high degree of accessibility.
 
 ## Agile / Project Management
+*GitHub Projects* was used to assist project management using a basic Kanban. Draft items were created then converted into issues and assigned to individual team members.  The the SCRUM Master then dragged the items from ToDo to In Progress then Complete after communicating with the team.
+
+As the event took, place over 5 days a call took place at the beginning and end of each day to agreed on task completion/issue closure.
 
 ## Features
 
