@@ -236,13 +236,6 @@ footer {
 /* Footer end */
 
 
-
-
-
-
-
-
-
 /* GENERAL STYLES AND RESETS - Eoghan */
 
 .separator {
@@ -399,10 +392,7 @@ footer {
   font-family: 'Raleway';
 }
 
-/* .employers-text h2 {
-    border-bottom: 1px solid var(--color-primary);
-    
-} */
+
 
 /* Images */
 
@@ -435,6 +425,7 @@ footer {
   padding: 20px;
 }
 
+
 #we-are-content>h3 {
   font-weight: bold;
 }
@@ -455,6 +446,7 @@ footer {
   margin: 5px;
   text-align: left;
 }
+
 
 #we-did-content>h3 {
   font-weight: bold;
@@ -485,6 +477,43 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+    margin: 20px auto;
+}
+
+.card {
+    width: 28%;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
+    text-align: left;
+    margin: 0px 15px 20px 15px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.card > .background-blue > img {
+    width: 75%;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto 2px auto;
+}
+
+.about-section h1, .about-section h2,  .about-section h3 {
+  font-size: 120%;
+  font-weight: bold;
+  color: #000;
+  text-decoration: underline;
+}
+
+.about-section > .card-h2 {
+  font-size: 200%;
+}
+
+.about-section p {
+  font-family: 'raleway', sans-serif;
+}
+
+.background-blue {
+  background-color: #29294c;
+  border-radius: 10px; 
 }
 
 .card-details {
@@ -530,6 +559,92 @@ footer {
   background: linear-gradient(to bottom left, #29294c 0%, #fff 100%);
   opacity: 0.8;
 }
+
+
+.intro-container-bg {
+  width: 100%;
+  height: 40vh;
+  background: url(/assets/media/employers4.jpg) center center/cover no-repeat;
+  border-radius: 3rem;
+  /* overflow: hidden; */
+}
+
+.stats-text {
+  font-weight: bold;
+}
+
+.intro-container {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom right, #fff 0%, #fff 50%, transparent);
+}
+
+.intro-container p {
+  padding: 6rem;
+  padding-right: 15rem;
+  font-size: 1.6rem;
+  line-height: 1.7;
+}
+
+
+.research-links a h3 {
+  color: #000;
+  display: inline-block;
+  
+}
+.research-links a h3:hover {
+  color: red;
+}
+
+.btn {
+  color: #fff;
+  background-color: #29294c;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  margin: 2rem 0;
+  border-radius: 3rem;
+
+}
+
+.btn-contact {
+  width: 15rem;
+  text-align: center;
+  align-self: center;
+  transition: all .2s;
+  position: relative;
+}
+
+.btn-contact:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(217, 139, 93, 0.1);
+  color: #fff;
+
+}
+
+.btn-contact::after {
+  background-color: #29294c;
+  content: '';
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.btn-contact:hover::after {
+ transform: scaleX(1.4) scaleY(1.6);
+ opacity: 0;
+}
+
+.btn-contact:active {
+  transform: scale(0.98);
+}
+
 
 /* 
 ---------------------------------------------
@@ -675,6 +790,7 @@ textarea {
 .btn-back a:hover {
   color: #fff;
 }
+
 
 
 
