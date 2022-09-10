@@ -89,7 +89,13 @@ As the event took, place over 5 days a call took place at the beginning and end 
 ![project-issue-example](docs/readme/project-issue-example.png)
 
 ## Features
-On form submsiioon a Thankyou page is displayed to the user to confirm their message has been sent.
+- Navigation Bar
+- Landing page - intro video
+- Landing page - What we do
+- About Us page - Meet the team
+- Employers page - research
+- Contact page form and Email
+- Confirm contact message sent page
 
 ## Future Development Oppurtunities
 Currently only a page aimed at Employers.  Why not Develop a new area aimed at Employees in an FAQ format.
@@ -124,7 +130,6 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://stevenweir038.github.io/equality_consultants/)
 
-
 ## Technologies Used
 Project Planning & Management
 - [Balsamiq](https://balsamiq.com/) for wireframes
@@ -148,22 +153,11 @@ Other
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
 - [Google Fonts](https://fonts.google.com/)
 - [Fontawesome 6](https://fontawesome.com/)
-- [EmailJS](https://www.emailjs.com/) **CHECK DID ANDRUIS KEEP USING EmailJS**
+- [EmailJS](https://www.emailjs.com/)
 
-Validators **USE ON SATURDAY WHEN TEAM GETS TOGHTHER IN PERSON**
-- [W3C Markup Validator](https://validator.w3.org/) HTML linter
-- [Jigsaw](https://jigsaw.w3.org/css-validator/) CSS linter
-- [JSHint](https://jshint.com/) JS linter
-- [PEP8](http://pep8online.com/) Python linter
-
-**CHECK WITH TEAM IF MORE TO ADD**
-
-
-## Credits
-
+## Credit
 ### Content
-
-- **get research off Eoghan** []()
+- Introduction [Video](https://www.youtube.com/watch?v=zAnOC7cfrUw).  Permission courtesy of Alexa Bradbury <alexa.bradbury@guidantglobal.com>
 
 ### People
 
