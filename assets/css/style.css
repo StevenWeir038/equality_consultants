@@ -100,6 +100,23 @@ a.nav-link {
   font-family: 'Raleway', sans-serif;
 }
 
+span.navbar-toggler-icon {
+  background: #f8f9fa;
+  color: #29294c;
+}
+
+.navbar-light .navbar-toggler {
+  color: #f8f9fa;
+  border-color: rgb(253, 250, 250 / 88%);
+  padding: 2px;
+}
+
+.logo {
+  width: 50px;
+  margin-top: -15px;
+  border-radius: 10px;
+}
+
 .logo-text {
   font-weight: 900;
   font-size: xx-large;
@@ -485,6 +502,7 @@ footer {
   margin: 0px 15px 20px 15px;
   padding: 2px;
   border-radius: 5px;
+  font-size: 1vw;
 }
 
 .card>.background-blue>img {
@@ -882,10 +900,13 @@ textarea {
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
+
   /* -------------------------------- Home */
+
   .video-container {
     margin-top: 4.8rem;
   }
+
 
   /* -------------------------------- Thank you page */
   .container-thankyou {
