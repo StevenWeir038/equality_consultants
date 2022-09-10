@@ -854,9 +854,6 @@ textarea {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-
-
-
   /* -------------------------------- Footer */
   .f-col-1 {
     display: flex;
@@ -866,7 +863,15 @@ textarea {
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+  .logo-text {
+    font-size: x-large;
+  }
+
+  .social-icons i {
+    font-size: 1.2rem;
+  }
+}
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {}
