@@ -1,3 +1,4 @@
+
 // jshint esversion: 6
 /*jshint sub:true*/
 //Script for active navigation menu
@@ -16,4 +17,7 @@ $(document).ready(function () {
 
 
 console.log("Test JS link is working")
+
+
+/* jshint esversion: 8 */
 

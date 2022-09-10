@@ -1,46 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="Our mission is to promote diversity and inclusion in the tech industry"/>
-<!-- Bootstrap 5 CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Our mission is to promote diversity and inclusion in the tech industry" />
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-<!-- Bespoke CSS -->
-<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <!-- Bespoke CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
-<!-- Fontawesome 6 -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    <!-- Fontawesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-<title>EQC | About Us</title>
+    <title>EQC | About Us</title>
 
 </head>
 
 <body>
-
     <header>
-        Header Content
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+                <a href="index.html#">
+                    <span class="logo-text">E-Quality Consultancy</span>
+                </a>
+                <button class="navbar-toggler position" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="employers.html">EMPLOYERS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
-        <section>
-            <h1>About Us Page Test</h1>
-        </section>
+    <section class="about-section text-center about-section-margin">
+        <h1>About Us</h1>
+        <div id="about-container1">
+            <div id="we-are-content">
+                <h3>We are...</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque voluptatibus quia ex laboriosam
+                    aspernatur, rem aperiam quod veritatis dicta incidunt modi, possimus doloribus, tempore repudiandae
+                    porro laudantium illum! Natus, odit.
+                </p>
+            </div>
+            <div id="we-are-image">
+                <img src="assets/images/four_women_working_together.jpg" alt="four women working together image">
+            </div>
+        </div>
 
-    <footer>
-        Footer Content
+        <div id="we-did-content">
+            <h3>We did...</h3>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque voluptatibus quia ex laboriosam
+                aspernatur, rem aperiam quod veritatis dicta incidunt modi, possimus doloribus, tempore repudiandae
+                porro laudantium illum! Natus, odit.
+            </p>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="about-section text-center about-section-margin">
+        <h2 class="h2-margin card-h2">Our Team</h2>
+        <div id="about-container2">
+            <div class="card">
+                <div class="background-blue text-center">
+                <img src="assets/images/steven_image.png" alt="Steven profile picture">       
+            </div>        
+                <div class="card-details">
+                    <h3>Steven</h3>
+                    <p class="title">Contributor</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>john@example.com</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="background-blue text-center">
+                <img src="assets/images/fran-image.jpg" alt="Fran profile picture">
+                </div>
+                <div class="card-details">
+                    <h3>Fran</h3>
+                    <p class="title">Contributor</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>john@example.com</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="background-blue text-center">
+                <img src="assets/images/john-image.jpg" alt="John profile picture">
+            </div>
+                <div class="card-details">
+                    <h3>John de Lara</h3>
+                    <p class="title">Contributor</p>
+                    <p>CodeInstitute full-stack developer student.</p>
+                    <p>jddelara01@gmail.com</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="background-blue text-center">
+                <img src="assets/images/profile-pic1.jpg" alt="profile picture 1">
+            </div>
+                <div class="card-details">
+                    <h3>John Doe</h3>
+                    <p class="title">Contributor</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>john@example.com</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="background-blue text-center">
+                <img src="assets/images/profile-pic1.jpg" alt="profile picture 1">
+                </div>
+                <div class="card-details">
+                    <h3>John Doe</h3>
+                    <p class="title">Contributor</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>john@example.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer start-->
+    <footer class="p-2 text-dark">
+        <div class="container-fluid">
+            <div class="row align-items-center  g-4">
+
+                <div class="col-md-4">
+                    <a href="index.html#">
+                        <span class="logo-text">E-Quality Consultancy</span>
+                    </a>
+                </div>
+                <div class="col-md-6 copyright-text">
+                    Copyright &copy; For educational purposes only | All Rights Reserved
+                </div>
+                <div class="col-md-2">
+                    <div class="social-section">
+                        <a href="https://www.instagram.com/" target="_blank"><span class="social-icons h2"><i
+                                    class="fab fa-instagram"></i></span></a>
+                        <a href="https://www.facebook.com/" target="_blank"><span class="social-icons h2"><i
+                                    class="fab fa-facebook"></i></span> </a>
+                        <a href="https://twitter.com/" target="_blank"><span class="social-icons h2"><i
+                                    class="fab fa-twitter"></i></span></a>
+                        <a href="https://www.youtube.com/" target="_blank"><span class="social-icons h2"><i
+                                    class="fab fa-youtube"></i></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </footer>
+    <!--Footer end-->
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 
-<!-- Bootstrap 5 JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-<!-- Bespoke JS -->
-<script src="assets/js/script.js"></script>
+    <!-- Bespoke JS -->
+    <script src="assets/js/script.js"></script>
 
 </body>
 
