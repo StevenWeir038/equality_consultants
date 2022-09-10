@@ -85,6 +85,9 @@ Lato & Raleway were selected. Both look professional and provide a high degree o
 
 As the event took, place over 5 days a call took place at the beginning and end of each day to agreed on task completion/issue closure.
 
+![kanban-example](docs/readme/kanban-example.png)
+![project-issue-example](docs/readme/project-issue-example.png)
+
 ## Features
 
 
@@ -107,6 +110,8 @@ As the site was static, it was deployed using *GitHub Pages*.  The steps to depl
 - The page will reload with a link to the live site
 
 The live link can be found here - https://stevenweir038.github.io/equality_consultants/
+
+![project-issue-example](docs/readme/deployment.png)
 
 ## Local Deployment
 In order to make a local copy of this repository, you can clone the project by typing the follow into your IDE terminal:
