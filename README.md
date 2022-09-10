@@ -26,20 +26,6 @@ Further considerations were:
 - limited development time before presentation
 - simplier deployment through GitHub Pages.
 
-
-# Planning Phase
-## Strategy Plane
-### Site Aims
-
-### Opportunities
-
-
-## Scope Plane
-### Must Have
-### Should Have
-### Could Have
-
-
 ## Skeleton Plane
 ## User Stories
 1. As a **site user**, I want to **visit the landing page** so that **I can understand the purpose of the site**
@@ -90,12 +76,33 @@ As the event took, place over 5 days a call took place at the beginning and end 
 
 ## Features
 - Navigation Bar
+
+![navbar](docs/readme/navbar.png)
+
 - Landing page - intro video
+
+![landing-page-video](docs/readme/landing-page-video.png)
+
 - Landing page - What we do
+
+![landing-page-video](docs/readme/landing-what-we-do.png)
+
 - About Us page - Meet the team
+
+![meet-the-team](docs/readme/meet-the-team.png)
+
 - Employers page - research
+
+![research](docs/readme/research.png)
+
 - Contact page form and Email
+
+![contact-form](docs/readme/contact-form.png)
+
 - Confirm contact message sent page
+
+![user-feedback-confirmation](docs/readme/user-feedback-confirmation.png)
+
 
 ## Future Development Oppurtunities
 Currently only a page aimed at Employers.  Why not Develop a new area aimed at Employees in an FAQ format.
