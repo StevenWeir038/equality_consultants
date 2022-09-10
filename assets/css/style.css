@@ -493,6 +493,7 @@ footer {
   margin: 0px 15px 20px 15px;
   padding: 2px;
   border-radius: 5px;
+  font-size: 1vw;
 }
 
 .card>.background-blue>img {
