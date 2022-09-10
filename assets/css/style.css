@@ -477,33 +477,35 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
-    margin: 20px auto;
+  margin: 20px auto;
 }
 
 .card {
-    width: 28%;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
-    text-align: left;
-    margin: 0px 15px 20px 15px;
-    padding: 2px;
-    border-radius: 5px;
+  width: 28%;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
+  text-align: left;
+  margin: 0px 15px 20px 15px;
+  padding: 2px;
+  border-radius: 5px;
 }
 
-.card > .background-blue > img {
-    width: 75%;
-    height: auto;
-    border-radius: 50%;
-    margin: 0 auto 2px auto;
+.card>.background-blue>img {
+  width: 75%;
+  height: auto;
+  border-radius: 50%;
+  margin: 0 auto 2px auto;
 }
 
-.about-section h1, .about-section h2,  .about-section h3 {
+.about-section h1,
+.about-section h2,
+.about-section h3 {
   font-size: 120%;
   font-weight: bold;
   color: #000;
   text-decoration: underline;
 }
 
-.about-section > .card-h2 {
+.about-section>.card-h2 {
   font-size: 200%;
 }
 
@@ -513,7 +515,7 @@ footer {
 
 .background-blue {
   background-color: #29294c;
-  border-radius: 10px; 
+  border-radius: 10px;
 }
 
 .card-details {
@@ -590,8 +592,9 @@ footer {
 .research-links a h3 {
   color: #000;
   display: inline-block;
-  
+
 }
+
 .research-links a h3:hover {
   color: red;
 }
@@ -637,8 +640,8 @@ footer {
 }
 
 .btn-contact:hover::after {
- transform: scaleX(1.4) scaleY(1.6);
- opacity: 0;
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
 }
 
 .btn-contact:active {
@@ -797,6 +800,24 @@ textarea {
 
 /* media queries  */
 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  ...
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
+
+/* 
 @media screen and (max-width:786px) {
   .employers-story {
     flex-direction: column;
@@ -824,7 +845,7 @@ textarea {
   .flex-row-reverse {
     flex-direction: column !important;
   }
-}
+} */
 
 
 /* -------------------- */
