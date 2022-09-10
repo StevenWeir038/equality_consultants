@@ -740,6 +740,13 @@ textarea {
   text-align: center;
 }
 
+.stem-table {
+  color: #fff;
+  background-color: #29294c;
+  font-weight: bold;
+}
+
+
 .container-thankyou {
   padding-top: 12.8rem;
   display: flex;
@@ -785,9 +792,6 @@ textarea {
 .btn-back a:hover {
   color: #fff;
 }
-
-
-
 
 
 /* media queries  */
