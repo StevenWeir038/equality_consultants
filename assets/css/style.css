@@ -91,6 +91,12 @@ a.nav-link {
   font-family: 'Raleway', sans-serif;
 }
 
+.logo {
+  width: 50px;
+  margin-top: -15px;
+  border-radius: 10px;
+}
+
 .logo-text {
   font-weight: 900;
   font-size: xx-large;
